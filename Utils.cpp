@@ -35,8 +35,4 @@ std::string trimmed(std::string s) {
 }
 
 // split a string based on a regex
-std::vector<std::string> split(const std::string &input, const std::string &regex) {
-    std::regex re(regex);
-    std::sregex_token_iterator first(input.begin(), input.end(), re, -1), last;
-    return std::vector<std::string>(first, last);
-}
+
