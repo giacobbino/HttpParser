@@ -25,8 +25,6 @@ std::string rtrimmed(std::string);
 // trim from both ends (copying)
 std::string trimmed(std::string);
 
-// split a string based on a regex
-std::vector<std::string> split(const std::string &, const std::string &);
 
 #endif // UtilsH
 
